@@ -1,8 +1,7 @@
-from pyhunter import PyHunter
-from openpyxl import Workbook
-import os
-import getpass
+from importa import *
+
 # Definimos la funcion busqueda
+
 
 def busqueda(organizacion):
     # Cantidad de resultados esperados de la búsqueda
@@ -15,7 +14,9 @@ def busqueda(organizacion):
 # Definimos la funcion para guardar la informacion
 
 
-correos=[]
+correos = []
+
+
 def guardar_informacion(datosEncontrados, organizacion):
     # for key in datos_encontrados:
     # print(key,":",datos_encontrados[key])
@@ -27,9 +28,9 @@ def guardar_informacion(datosEncontrados, organizacion):
     archivo.close()
     archivo = open(".\Data/correos.txt", "w")
     for i in correos:
-       archivo.write(i+"\n")
+        archivo.write(i+"\n")
     archivo.close()
-archivo=open(".\llaves\CLave-API.txt", "r")
+archivo = open(".\llaves\CLave-API.txt", "r")
 # Hacemos la peticion del API al usuario
 print("Script para buscar información")
 clave = archivo.readline()
@@ -43,6 +44,6 @@ datosEncontrados = busqueda(orga)
 if datosEncontrados is None:
     exit()
 else:
-    #print(datos_encontrados["emails"][1])
-    #print(type(datos_encontrados))
+    # print(datos_encontrados["emails"][1])
+    # print(type(datos_encontrados))
     guardar_informacion(datosEncontrados, orga)
