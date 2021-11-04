@@ -1,0 +1,33 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): free.ipwhois.io:80
+DEBUG:urllib3.connectionpool:http://free.ipwhois.io:80 "GET /json/8.8.8.8 HTTP/1.1" 200 None
+INFO:root:2021-11-04 01:29:28 Ejecucion de geolocalizacion correcta
+INFO:root:2021-11-04 01:29:35 Ejecucion de funcion scan correctamente
+INFO:root:2021-11-04 01:29:42 Ejecucion de funcion ports correctamente
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5
+/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'To': '+528129440532', 'From': '+15405016870', 'Body': 'Hola amigo tovar'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5%0A/Messages.json HTTP/1.1" 201 819
+INFO:twilio.http_client:POST Response: 201 {"sid": "SM1d6da3e44636445aaf1d644d44565099", "date_created": "Thu, 04 Nov 2021 07:29:54 +0000", "date_updated": "Thu, 04 Nov 2021 07:29:54 +0000", "date_sent": null, "account_sid": "ACb8d6e14e8eedfe104cac14f5dd959fa5", "to": "+528129440532", "from": "+15405016870", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Hola amigo tovar", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5/Messages/SM1d6da3e44636445aaf1d644d44565099.json", "subresource_uris": {"media": "/2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5/Messages/SM1d6da3e44636445aaf1d644d44565099/Media.json"}}
+INFO:root:2021-11-04 01:29:55 Ejecucion de funcion enviar_sms correctamente
+ERROR:root:2021-11-04 01:29:55 Ejecucion de funcion enviar correo fallo
+INFO:root:2021-11-04 01:29:55 Se ejecuto APIHUNTER correctamente 
+INFO:root:2021-11-04 01:29:57 Se ejecuto Encrypt correctamente 
+INFO:root:2021-11-04 01:30:05 Se ejecuto Hashes correctamente 
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): free.ipwhois.io:80
+DEBUG:urllib3.connectionpool:http://free.ipwhois.io:80 "GET /json/8.8.8.8 HTTP/1.1" 200 None
+INFO:root:2021-11-04 01:32:37 Ejecucion de geolocalizacion correcta
+INFO:root:2021-11-04 01:32:44 Ejecucion de funcion scan correctamente
+INFO:root:2021-11-04 01:32:53 Ejecucion de funcion ports correctamente
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5
+/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'To': '+528129440532', 'From': '+15405016870', 'Body': 'Hola amigo tovar'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5%0A/Messages.json HTTP/1.1" 201 819
+INFO:twilio.http_client:POST Response: 201 {"sid": "SMf52741fde7934bf599d2418650cfac86", "date_created": "Thu, 04 Nov 2021 07:33:05 +0000", "date_updated": "Thu, 04 Nov 2021 07:33:05 +0000", "date_sent": null, "account_sid": "ACb8d6e14e8eedfe104cac14f5dd959fa5", "to": "+528129440532", "from": "+15405016870", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Hola amigo tovar", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5/Messages/SMf52741fde7934bf599d2418650cfac86.json", "subresource_uris": {"media": "/2010-04-01/Accounts/ACb8d6e14e8eedfe104cac14f5dd959fa5/Messages/SMf52741fde7934bf599d2418650cfac86/Media.json"}}
+INFO:root:2021-11-04 01:33:06 Ejecucion de funcion enviar_sms correctamente
+INFO:root:2021-11-04 01:33:06 Se ejecuto APIHUNTER correctamente 
+INFO:root:2021-11-04 01:33:08 Ejecucion de funcionenviar correo correctamente
+INFO:root:Se ejecuto cifrado simetrico con éxito
+INFO:root:2021-11-04 01:33:10 Se ejecuto Encrypt correctamente 
+INFO:root:2021-11-04 01:33:17 Se ejecuto Hashes correctamente 

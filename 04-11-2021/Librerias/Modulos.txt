@@ -1,0 +1,12 @@
+Beautifulsoup4
+sockets
+scapy
+requests
+argparse
+subprocess.run
+python-nmap
+pyhunter
+openpyxl
+secure-smtplib
+twilio
+logging2

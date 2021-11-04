@@ -1,0 +1,20 @@
+Paso 1 
+
+Clonar el repositorio de git hub
+
+clone https://github.com/MAXLSTI/CiberTools.git
+
+Paso 2
+
+installar las dependencias necesarias con el siguiente comando 
+
+python install.py
+
+Paso 3
+
+Usar el comando python main.py --help 
+Para obtener el uso de los parametros que usaremos para la ejecucion 
+
+paso 4 
+Correr el comando 
+python main.py con sus parametros requeridos 
