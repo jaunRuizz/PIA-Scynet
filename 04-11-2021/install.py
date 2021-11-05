@@ -2,8 +2,23 @@ import os
 import logging
 
 # Abrimos el archivo logging para almacenar los errores
-logging.basicConfig(filename='C:/Users/mcdan/OneDrive - Universidad Autonoma de Nuevo León/2020-2021/Desktop/info.log', level='DEBUG')
+logging.basicConfig(filename='./install.log', level='DEBUG')
 
+
+
+
+def mkdir():
+    try:
+        carpetas = ['bas','Data','Encriptado','hashes']
+        c=0
+        for name in carpetas:
+            os.system('mkdir ' + str(carpetas[c]))
+            c+=1
+        logging.info("Se ejecuto correctamente la" +
+                     " funcion crear directorios ")
+    except:
+        logging.error("Fallo la ejecucion de la funcion crear directorios")
+        pass
 
 def install_modulos():
     try:
@@ -15,10 +30,10 @@ def install_modulos():
         modulos.close()
         logging.info("Se ejecuto correctamente la" +
                      " funcion e instalar de modulos ")
-        exit()
     except:
         logging.error("Fallo la ejecucion de la funcion instalar modulos")
         pass
 
 if __name__ == '__main__':
     install_modulos()
+    mkdir()

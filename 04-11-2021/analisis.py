@@ -334,6 +334,7 @@ def cifrado():
                 encrypt.write(token+b"\n")
         encrypt.close()
         os.system("move ./cript.txt ./bas")
+        os.system("move ./install.log ./logging")
         logging.info("Se ejecuto cifrado simetrico con éxito")
     except:
         logging.error("Fallo cifrado Simetrico")
