@@ -1,10 +1,6 @@
 # PIA-Scynet
 Proyecto Final de Ciberseguridad ........
-<<<<<<< HEAD
-# PIA-Scynet
-Proyecto Final de Ciberseguridad ........
-=======
->>>>>>> aaef7fad91d480e714318cc9f54fe383fcc4b07c
+
 <p align="center"><img src="https://lh3.googleusercontent.com/qracujYPlPttXJ1BHo4t27KN6ofLsXzOK1witnDIn9AH-QfCz2Kp-Vf1JLKnk3Rvgsi7jw=s101"></p>
 
 <p align="center">
@@ -107,8 +103,3 @@ options:
 ##################
 
 python .\main.py    -user ************@gmail.com  -m 'Mensaje a enviar' -dest numero destinatario   -i 192.168.0.1 -ip 8.8.8.8 o ip publica
-<<<<<<< HEAD
-```
-=======
-```
->>>>>>> aaef7fad91d480e714318cc9f54fe383fcc4b07c
